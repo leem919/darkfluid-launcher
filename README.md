@@ -2,8 +2,8 @@
 Launcher for Helldivers 2 to connect to leemdivers-api
 
 # Prerequisites
-- python3
-- pip3
+- python
+- pip
 - frida-tools
 
 # Building
