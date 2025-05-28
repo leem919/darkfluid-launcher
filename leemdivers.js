@@ -1,6 +1,6 @@
 // Define hosts
 const originalHost = "https://api.live.prod.thehelldiversgame.com/";
-const replacementHost = "https://conceptual-inna-leem919-b84354cb.koyeb.app/";
+const replacementHost = "https://leemdivers-api.onrender.com/";
 
 function isTargetUrl(url) {
     return url.indexOf(originalHost) === 0;
