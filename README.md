@@ -1,5 +1,5 @@
 # leemdivers-launcher
-Launcher for Helldivers 2 to connect to [leemdivers-api-static](https://github.com/leem919/leemdivers-api-static)
+Launcher for Helldivers 2 to connect to [leemdivers-api](https://github.com/leem919/leemdivers-api)
 
 # Prerequisites
 - python
