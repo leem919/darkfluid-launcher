@@ -13,7 +13,7 @@ const deniedEndpoints = [
     "https://api.live.prod.thehelldiversgame.com/api/Mail/inbox",
     "https://api.live.prod.thehelldiversgame.com/api/v2/Assignment/Player",
     "https://api.live.prod.thehelldiversgame.com/api/Operation/Create",
-    "https://api.live.prod.thehelldiversgame.com/api/Account/ReportPosition"
+    "https://api.live.prod.thehelldiversgame.com/api/Account/ReportPosition",
     "https://api.live.prod.thehelldiversgame.com/api/Operation/Mission/Start",
     "https://api.live.prod.thehelldiversgame.com/api/Operation/Mission/SetMaxRewards",
     "https://api.live.prod.thehelldiversgame.com/api/Progression/inventory/consume",
