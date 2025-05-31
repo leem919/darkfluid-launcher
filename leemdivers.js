@@ -1,6 +1,6 @@
 // Define hosts
 const originalHost = "https://api.live.prod.thehelldiversgame.com/";
-const replacementHost = "https://leemdivers-api-static.pages.dev/";
+const replacementHost = "https://grand-lokum-1638c2.netlify.app/";
 
 function isTargetUrl(url) {
     return url.indexOf(originalHost) === 0;
