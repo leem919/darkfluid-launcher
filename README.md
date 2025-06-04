@@ -13,3 +13,4 @@ Launcher for Helldivers 2 to connect to [leemdivers-api-static](https://github.c
 
 # Usage
 Place leemdiverslauncher.exe and leemdivers.js in the same directory and run the exe.
+A command line window for Frida should appear.
