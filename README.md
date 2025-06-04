@@ -4,7 +4,7 @@ Launcher for Helldivers 2 to connect to [leemdivers-api-static](https://github.c
 # Prerequisites
 - python
 - pip
-- frida-tools
+- frida-tools==13.7.1
 
 # Building
 1. Install [AHK v1.1.36.02](https://github.com/AutoHotkey/AutoHotkey/releases/tag/v1.1.36.02)
