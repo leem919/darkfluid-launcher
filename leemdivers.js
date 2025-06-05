@@ -23,7 +23,7 @@ Interceptor.attach(curl_easy_setopt, {
             const url = Memory.readUtf8String(urlPtr);
             if (isTargetUrl(url)) {
                 const newUrl = replaceUrl(url);
-                console.log("[Frida] Redirecting", url, "to", newUrl);
+                console.log("Redirecting", url, "to", newUrl);
                 Memory.writeUtf8String(urlPtr, newUrl);
             }
         }
