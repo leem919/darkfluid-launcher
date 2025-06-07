@@ -1,5 +1,5 @@
 const originalHost = "https://api.live.prod.thehelldiversgame.com/";
-const replacementHost = "http://127.0.0.1/";
+const replacementHost = "https://darkfluid-api.vercel.app/";
 const dummyHost = "https://jsonplaceholder.typicode.com/posts";
 
 const endpointsToDummy = [
