@@ -1,5 +1,5 @@
-# leemdivers-launcher
-Launcher for Helldivers 2 to connect to [leemdivers-api-static](https://github.com/leem919/leemdivers-api-static)
+# darkfluid-launcher
+Launcher for Helldivers 2 to connect to [darkfluid-api](https://github.com/leem919/darkfluid-api)
 
 # Prerequisites
 - python
@@ -8,9 +8,11 @@ Launcher for Helldivers 2 to connect to [leemdivers-api-static](https://github.c
 
 # Building
 1. Install [AHK v1.1.36.02](https://github.com/AutoHotkey/AutoHotkey/releases/tag/v1.1.36.02)
-2. Download leemdiverslauncher.ahk
-3. Right-click leemdiverslauncher.ahk and compile it
+2. Download darkfluidlauncher.ahk
+3. Right-click darkfluidlauncher.ahk and select Compile Script (GUI)
+4. Select darkfluid.ico as the icon
+5. Compile!
 
 # Usage
-Place leemdiverslauncher.exe and leemdivers.js in the same directory and run the exe.
+Place darkfluidlauncher.exe and darkfluid.js in the same directory and run the exe.
 A command line window for Frida should appear.
