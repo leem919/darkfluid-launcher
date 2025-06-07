@@ -1,6 +1,6 @@
 const originalHost = "https://api.live.prod.thehelldiversgame.com/";
 const replacementHost = "https://darkfluid-api.vercel.app/";
-const dummyHost = "https://www.google.com";
+const dummyHost = "https://dummyjson.com/posts/";
 
 const endpointsToDummy = [
     "/api/FriendsV2/Block",
