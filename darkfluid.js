@@ -48,7 +48,7 @@ Interceptor.attach(curl_easy_setopt, {
                     if (path.startsWith(endpoint)) {
                         // This is a specific endpoint. Redirect to the dummy host.
                         const newUrl = dummyHost + path;
-                        console.log(`Redirecting "${endpoint}" to: ${newUrl}`);
+                        console.log(`Redirecting to: ${newUrl}`);
                         Memory.writeUtf8String(urlPtr, newUrl);
                         isDummyEndpoint = true;
                         break; // Exit the loop
