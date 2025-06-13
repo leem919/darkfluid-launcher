@@ -6,6 +6,7 @@ const endpointsToDummy = [
     "/api/FriendsV2/Block",
     "/api/Operation/Abandon",
     "/api/Monetization/Steam/RedeemStoreContent",
+    "/api/Monetization/Steam/Catalog/en",
     "/api/Progression/Items/Customize",
     "/api/Stats/profile/summary",
     "/api/Stats/profile/801/summary",
@@ -18,8 +19,8 @@ const endpointsToDummy = [
     "/api/Operation/Create",
     "/api/Operation/Mission/Start",
     "/api/SeasonPass/1929468580",
-    "/api/storefront",
-    "/api/storefront/rotation",
+    "/api/StoreFront",
+    "/api/StoreFront/rotation",
     "/api/Operation/Mission/SetMaxRewards",
     "/api/Progression/inventory/consume",
     "/api/Progression/Achievements"
