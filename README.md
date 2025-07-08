@@ -1,7 +1,7 @@
 # darkfluid-launcher
 Launcher for Helldivers 2 to connect to [darkfluid-api](https://github.com/leem919/darkfluid-api)
 
-# Prerequisites
+# Requirements
 - python
 - pip
 - frida-tools==13.7.1
