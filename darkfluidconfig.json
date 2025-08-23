@@ -21,6 +21,9 @@
     "/api/StoreFront/rotation",
     "/api/Operation/Mission/SetMaxRewards",
     "/api/Progression/inventory/consume",
-    "/api/Progression/Achievements"
+    "/api/Progression/Achievements",
+    "/api/Account/InfoLookup",
+    "/api/FriendsV2/Request"
   ]
 }
+
