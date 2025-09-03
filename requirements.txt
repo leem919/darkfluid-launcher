@@ -1,0 +1,3 @@
+pyinstaller
+psutil
+frida-tools==13.7.1

@@ -6,5 +6,5 @@ Run darkfluidlauncher.exe and darkfluidconfig.json should be created in the same
 
 # Building
 1. Install Python 3 from [python.org](https://python.org)
-2. Install the dependencies with `pip install pyinstaller psutil frida-tools==13.7.1`
+2. Install the dependencies with `pip install -r requirements.txt`
 3. Run `pyinstaller --onefile --clean --noconsole --add-data "darkfluid.ico;." --icon=darkfluid.ico darkfluidlauncher.py`
