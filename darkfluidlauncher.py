@@ -248,7 +248,7 @@ def run_gui():
     style.configure("TListbox", background="#2c2c3c", foreground=fg)
 
     # Replacement Host
-    ttk.Label(root, text="Replacement Host: http(s)://example.com/").pack(anchor="w", pady=2)
+    ttk.Label(root, text="Replacement Host: http(s)://example.com/, http(s)://123.456.7.89/").pack(anchor="w", pady=2)
     host_entry = ttk.Entry(root, width=50)
     host_entry.insert(0, config["replacementHost"])
     host_entry.pack(fill="x", padx=5, pady=2)
