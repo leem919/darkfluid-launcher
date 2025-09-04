@@ -256,7 +256,7 @@ def run_gui():
     def apply_host():
         config["replacementHost"] = host_entry.get().strip()
         save_config(config)
-        messagebox.showinfo("Saved", "Replacement host updated.")
+        log(f"Replacement host applied: {config['replacementHost']}")
 
     ttk.Button(root, text="Apply Host", command=apply_host).pack(pady=5)
 
