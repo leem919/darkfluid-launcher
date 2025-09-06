@@ -62,6 +62,8 @@ def load_config():
             "replacementHost": "http://127.0.0.1/",
             "dummyEndpoints": [
                 "/api/FriendsV2/Block",
+                "/api/FriendsV2/Request",
+                "/api/FriendsV2/Recent",
                 "/api/Operation/Abandon",
                 "/api/Monetization/Steam/RedeemStoreContent",
                 "/api/Monetization/Steam/Catalog/en",
@@ -82,9 +84,7 @@ def load_config():
                 "/api/Operation/Mission/SetMaxRewards",
                 "/api/Progression/inventory/consume",
                 "/api/Progression/Achievements",
-                "/api/Account/InfoLookup",
-                "/api/FriendsV2/Request",
-                "/api/FriendsV2/FriendCode/Reset"
+                "/api/Account/InfoLookup"
             ]
         }
         with open(config_path, "w", encoding="utf-8") as f:
@@ -309,4 +309,5 @@ def run_gui():
 
 if __name__ == "__main__":
     run_gui()
+
 
